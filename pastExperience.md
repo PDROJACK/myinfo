@@ -1,0 +1,5 @@
+I really like to come up with my own solutions and work with open-source tech, of course somewhat inspired by blogs and good projects i see on internet. 
+
+I used NGINX a lot and created a solution to develop a live video streaming server using HLS and MPEG-DASH video streaming codecs. I enjoyed it a lot as it was an uncharted domain for me but it brought value for the company as well. I like to watch streams on twitch and it was exciting to make a streaming server on my own. 
+	
+In my current organisation, I enjoyed the performance testing and improvement part of our microservices. It was a bit different from development work and the task to find performance bottlenecks was like being a detective. Once such case was an integration service for a third party api, which was getting called by many services directly and indirectly. So for 1 req on our service was leading to many requests on that service. We made the architecture asynchronous by using kafka . So we did other tweaks as well in thread counts and timeouts.
